@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B8FDA">
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="30dp"
+        android:textSize="120dp"
+        android:gravity="center"
+        android:background="@drawable/circle"
+        android:shadowRadius="10.0"
+        android:textColor="#FFFFFF"
+        />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="50dp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        />
+
+</LinearLayout>
+</RelativeLayout>
